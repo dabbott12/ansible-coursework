@@ -1,0 +1,9 @@
+-
+  name: "Creates a new folder"
+  hosts: all
+  vars:
+    file: "pizza"
+  tasks:
+    -
+      name: "Creates a new folder"
+      command: mkdir "{{ file }}"
